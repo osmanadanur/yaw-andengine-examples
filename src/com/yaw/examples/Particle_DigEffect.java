@@ -107,10 +107,9 @@ public class Particle_DigEffect extends BaseGameActivity implements IOnSceneTouc
 	// ===========================================================
 	
 	/**
-	 * Este método genera la explosión del cubo al chocar con algún obstáculo
+	 * Generate the dig particle effect
 	 * @param posX
 	 * @param posY
-	 * @param direccion 
 	 */
 	private void createDig(float posX, float posY) {
 		//Init the particle system
